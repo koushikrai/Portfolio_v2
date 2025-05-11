@@ -1,0 +1,17 @@
+
+# Build directory
+/public
+.DS_Store
+
+
+
+
+#project dependencies
+node_modules/
+.cache/
+public
+yarn-error.log
+package-lock.json
+
+
+.vscode/
