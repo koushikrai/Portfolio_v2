@@ -7,54 +7,62 @@
       siteUrl: 'http://localhost:8000', // No trailing slash allowed! Path to your image you placed in the 'static' folder
       twitterUsername: '@koushik_rai21',
    },
+   
+  plugins: [
+    'gatsby-plugin-styled-components',
+    'gatsby-plugin-image',
+    'gatsby-plugin-sitemap',
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        icon: './src/images/logo.png',
+      },
+    },
+    'gatsby-plugin-mdx',
+    {
+      resolve: 'gatsby-plugin-sharp',
+      options: {
+        defaults: {
+          formats: ['auto', 'webp'], // 👈 Disables AVIF
+        },
+      },
+    },
+    'gatsby-transformer-sharp',
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'images',
+        path: './src/images/',
+      },
+      __key: 'images',
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'pages',
+        path: './src/pages/',
+      },
+      __key: 'pages',
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'content',
+        path: `${__dirname}/content/`,
+      },
+    },
+    'gatsby-transformer-remark',
+    {
+      resolve: 'gatsby-plugin-eslint',
+      options: {
+        stages: ['develop'],
+        extensions: ['js', 'jsx', 'ts', 'tsx'],
+        exclude: ['node_modules', '.cache', 'public'],
+      },
+    },
+  ],
+};
 
-   plugins: [
-     'gatsby-plugin-styled-components',
-     'gatsby-plugin-image',
-     'gatsby-plugin-sitemap',
-     {
-       resolve: 'gatsby-plugin-manifest',
-       options: {
-         icon: './src/images/logo.png', // This path is relative to the root of the site.
-       },
-     },
-     'gatsby-plugin-mdx',
-     'gatsby-plugin-sharp',
-     'gatsby-transformer-sharp',
-     {
-       resolve: 'gatsby-source-filesystem',
-       options: {
-         name: 'images',
-         path: './src/images/',
-       },
-       __key: 'images',
-     },
-     {
-       resolve: 'gatsby-source-filesystem',
-       options: {
-         name: 'pages',
-         path: './src/pages/',
-       },
-       __key: 'pages',
-     },
-     {
-       resolve: 'gatsby-source-filesystem',
-       options: {
-         name: 'content',
-         path: `${__dirname}/content/`,
-       },
-     },
-     'gatsby-transformer-remark', 
-     {
-       resolve: 'gatsby-plugin-eslint',
-       options: {
-         stages: ['develop'],
-         extensions: ['js', 'jsx', 'ts', 'tsx'],
-         exclude: ['node_modules', '.cache', 'public'],
-       },
-     },
-   ],
- };
 //  const config = require('./src/config');
 
 //  module.exports = {
