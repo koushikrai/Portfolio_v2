@@ -1,4 +1,4 @@
-const config = require('./src/config');
+// const config = require('./src/config');
 
  module.exports = {
    siteMetadata: {
@@ -15,7 +15,7 @@ const config = require('./src/config');
      {
        resolve: 'gatsby-plugin-manifest',
        options: {
-         icon: 'src/images/logo.png',
+         icon: './src/images/logo.png', // This path is relative to the root of the site.
        },
      },
      'gatsby-plugin-mdx',

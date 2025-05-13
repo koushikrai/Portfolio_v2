@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "@mdx-js/react": "^2.3.0",
-    "animejs": "^4.0.2",
+    "animejs": "^3.2.1",
     "babel-plugin-styled-components": "^2.1.4",
     "caniuse-lite": "^1.0.30001717",
     "gatsby": "^5.14.1",
