@@ -14,7 +14,9 @@ const StyledMenu = styled.div`
   }
 `;
 
-const StyledHamburgerButton = styled.button`
+const StyledHamburgerButton = styled.button.withConfig({
+  shouldForwardProp: (prop) => prop !== 'menuOpen',
+})`
   display: none;
 
   @media (max-width: 768px) {
@@ -54,6 +56,7 @@ const StyledHamburgerButton = styled.button`
     transition-timing-function: cubic-bezier(
       ${props => (props.menuOpen ? `0.215, 0.61, 0.355, 1` : `0.55, 0.055, 0.675, 0.19`)}
     );
+
     &:before,
     &:after {
       content: '';
@@ -69,21 +72,25 @@ const StyledHamburgerButton = styled.button`
       transition-duration: 0.15s;
       transition-property: transform;
     }
+
     &:before {
       width: ${props => (props.menuOpen ? `100%` : `120%`)};
       top: ${props => (props.menuOpen ? `0` : `-10px`)};
       opacity: ${props => (props.menuOpen ? 0 : 1)};
       transition: ${({ menuOpen }) =>
-    menuOpen ? 'var(--ham-before-active)' : 'var(--ham-before)'};
+        menuOpen ? 'var(--ham-before-active)' : 'var(--ham-before)'};
     }
+
     &:after {
       width: ${props => (props.menuOpen ? `100%` : `80%`)};
       bottom: ${props => (props.menuOpen ? `0` : `-10px`)};
       transform: rotate(${props => (props.menuOpen ? `-90deg` : `0`)});
-      transition: ${({ menuOpen }) => (menuOpen ? 'var(--ham-after-active)' : 'var(--ham-after)')};
+      transition: ${({ menuOpen }) =>
+        menuOpen ? 'var(--ham-after-active)' : 'var(--ham-after)'};
     }
   }
 `;
+
 
 const StyledSidebar = styled.aside`
   display: none;

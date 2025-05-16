@@ -77,7 +77,7 @@ const Footer = () => {
     if (process.env.NODE_ENV !== 'production') {
       return;
     }
-    fetch('https://api.github.com/repos/koushikrai')
+    fetch('https://api.github.com/repos/koushikrai/Portfolio_v2')
       .then(response => response.json())
       .then(json => {
         const { stargazers_count, forks_count } = json;
@@ -105,7 +105,7 @@ const Footer = () => {
       </StyledSocialLinks>
 
       <StyledCredit tabindex="-1">
-        <a href="https://github.com/koushikrai/PortFolio_V2">
+        <a href="https://github.com/koushikrai/PortFolio_v2">
           <div>Built by Koushik Rai</div>
 
           {githubInfo.stars && githubInfo.forks && (
