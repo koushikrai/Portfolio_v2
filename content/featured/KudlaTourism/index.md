@@ -1,7 +1,7 @@
 ---
 date: '2'
 title: 'Kudla tourism'
-cover: './kudlatourism.png'
+cover: './kudlatourism.jpg'
 github: 'https://github.com/koushikrai/kudla_tourism'
 tech:
   - React

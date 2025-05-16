@@ -1,7 +1,7 @@
 ---
 date: '1'
 title: 'Educonnect'
-cover: './educonnect.png'
+cover: 'educonnect.jpg'
 github: 'https://github.com/koushikrai/EduConnect'
 external: 'https://savvy-spark-nexus-hub.lovable.app'
 tech:

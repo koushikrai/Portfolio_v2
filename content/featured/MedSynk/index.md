@@ -1,7 +1,7 @@
 ---
 date: '3'
 title: 'MedSynk'
-cover: './medsynk.png'
+cover: './medsynk.jpg'
 github: 'https://github.com/koushikrai/MedSynk'
 tech:
   - React

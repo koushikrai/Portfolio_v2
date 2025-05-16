@@ -1,7 +1,7 @@
 ---
 date: '4'
 title: 'VCrypt tracker'
-cover: './vcrypt.png'
+cover: './vcrypt.jpg'
 github: 'https://github.com/koushikrai/VCrypt_Tracker'
 tech:
   - React
