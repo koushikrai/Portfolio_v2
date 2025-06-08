@@ -1,6 +1,6 @@
 ---
 date: '2024-02-14'
-title: 'Valentines wishing site'
+title: 'Birthday wishing site'
 github: 'https://github.com/koushikrai/BirthdaySite'
 external: 'https://BirthdaySite-wish.netlify.com/'
 tech:

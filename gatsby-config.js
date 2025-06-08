@@ -23,7 +23,7 @@
       resolve: 'gatsby-plugin-sharp',
       options: {
         defaults: {
-          formats: ['auto', 'webp'], // 👈 Disables AVIF
+          formats: ['auto'], // 👈 Disables AVIF
         },
       },
     },
