@@ -3,7 +3,7 @@ date: '1'
 title: 'Educonnect'
 cover: 'educonnect.jpg'
 github: 'https://github.com/koushikrai/EduConnect'
-external: 'https://savvy-spark-nexus-hub.lovable.app'
+external: 'https://edu-connect.surge.sh'
 tech:
   - Lovable
   - Typescript

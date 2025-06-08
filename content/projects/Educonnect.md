@@ -2,9 +2,9 @@
 date: '2025-04-25'
 title: 'Educonnect'
 github: 'https://github.com/koushikrai/EduConnect'
-external: 'https://savvy-spark-nexus-hub.lovable.app'
+external: 'https://edu-connect.surge.sh'
 tech:
-  - Lovable
+  - Surge
   - Typescript
   - Material UI
   - TailwindCss with Postcss
