@@ -2,7 +2,7 @@
 date: '2025-06-07'
 title: 'CryptoMiningGame '
 github: 'https://github.com/koushikrai/Crypto_Miner '
-external: 'https://crypto-miner-game.surge.sh'
+external: 'https://crypto-mining-game.netlify.app'
 tech:
   - Surge
   - Vite  

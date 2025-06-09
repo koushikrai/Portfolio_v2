@@ -2,7 +2,7 @@
 date: '2024-11-20'
 title: 'MedSynk'
 github: 'https://github.com/koushikrai/MedSynk'
-external: 'https://MedSynk.netlify.com/'
+external: 'https://medsynk.netlify.com'
 tech:
   - React
   - Express

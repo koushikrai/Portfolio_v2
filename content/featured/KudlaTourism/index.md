@@ -3,7 +3,9 @@ date: '2'
 title: 'Kudla tourism'
 cover: './kudlatourism.jpg'
 github: 'https://github.com/koushikrai/kudla_tourism'
+external: 'https://kudla-tourism.netlify.app'
 tech:
+  - Netlify
   - React
   - Styled Components
   - Css

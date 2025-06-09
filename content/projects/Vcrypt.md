@@ -2,7 +2,7 @@
 date: '2025-05-13'
 title: 'VCrypt tracker'
 github: 'https://github.com/koushikrai/VCrypt_Tracker'
-external: 'https://VCrypt_Tracker.netlify.com/'
+external: 'https://vcrypt-tracker.netlify.com'
 tech:
   - React
   - Schnorr algorithm

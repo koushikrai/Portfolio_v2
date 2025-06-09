@@ -5,7 +5,7 @@ cover: 'educonnect.jpg'
 github: 'https://github.com/koushikrai/EduConnect'
 external: 'https://edu-connect.surge.sh'
 tech:
-  - Lovable
+  - Surge
   - Typescript
   - Material UI
   - TailwindCss with Postcss

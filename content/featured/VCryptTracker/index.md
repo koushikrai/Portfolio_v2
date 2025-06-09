@@ -3,6 +3,7 @@ date: '4'
 title: 'VCrypt tracker'
 cover: './vcrypt.jpg'
 github: 'https://github.com/koushikrai/VCrypt_Tracker'
+external: 'https://vcrypt-tracker.netlify.app'
 tech:
   - React
   - Schnorr algorithm

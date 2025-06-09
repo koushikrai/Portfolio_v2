@@ -3,10 +3,12 @@ date: '3'
 title: 'MedSynk'
 cover: './medsynk.jpg'
 github: 'https://github.com/koushikrai/MedSynk'
+external: 'https://medsynk.netlify.app'
 tech:
-  - React
+  - Netlify
+  - NextJs
+  - Typescript
   - Express
-  - Spotify API
   - Styled Components
 ---
 
